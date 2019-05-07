@@ -2,23 +2,18 @@
 
 Para comenzar a utilizar OpenRefine debe cargar sus datos en el programa y crear un proyecto. Para ello, siga los siguientes pasos:
 
-****
-[discrete]
 === Paso 1
 
 *Abra la aplicación OpenRefine*. Si utiliza Windows, se abrirá una ventana de comandos que mostrará las acciones que OpenRefine está realizando (<<img-fig-01,Figura 1>>). No cierre esta ventana mientras esté trabajando con el programa.
 
 [#img-fig-01]
-.TODO This figure needs a caption
-image::img/es.figure-01.jpg[TODO This figure ought to have a text description,align=center]
+.Figura 1
+image::img/es.figure-01.jpg[align=center]
 
-
-OpenRefine se abrirá en el navegador que usted utilice por defecto inmediatamente después de ejecutar la aplicación (<<img-fig-02,Figura 2>>). Si OpenRefine no abre, puede acceder manualmente ingresando la siguiente URL en su navegador: 
-
- *link:http://127.0.0.1:3333[]*
+OpenRefine se abrirá en el navegador que usted utilice por defecto inmediatamente después de ejecutar la aplicación (<<img-fig-02,Figura 2>>). Si OpenRefine no abre, puede acceder manualmente ingresando la siguiente URL en su navegador: *link:http://127.0.0.1:3333[]*
 
 [#img-fig-02]
-.ADD CAPTION
+.Figura 2
 image::img/es.figure-02.jpg[Figura 2,align=center]
 
 En el menú de la izquierda tiene opciones para crear, abrir o importar proyectos. Si usted no tiene ningún proyecto aún, en la opción de “Abrir proyecto” verá una lista vacía. 
@@ -29,10 +24,6 @@ Además puede cambiar la configuración de idioma. Para ello, haga click en “I
 .Figura 3
 image::img/es.figure-03.jpg[Figura 3,align=center]
 
-****
-
-****
-[discrete]
 === Paso 2
 
 *Cargue los datos* (<<img-fig-02,Figura 2>>). Dentro de la opción “Crear proyecto”, escoja el archivo que desea cargar. Note que hay varios formatos posibles de archivos que se pueden subir (tsv, csv, xls, json, etc). Haga click en “Siguiente”. 
@@ -55,18 +46,10 @@ image::img/es.figure-04.jpg[Figura 4,align=center]
 .Figura 5
 image::img/es.figure-05.jpg[Figura 5,align=center]
 
-****
-
-****
-[discrete]
 === Paso 3
 
 *Cree el proyecto*. Una vez que haya seleccionado las opciones de carga de datos, haga click en el botón “Crear Proyecto” arriba a la derecha.
 
-****
-
-****
-[discrete]
 === Paso 4
 
 *¡Felicitaciones!* Ya tiene un proyecto (lo verá como en la <<img-fig-06,Figura 6>>).
@@ -76,5 +59,3 @@ image::img/es.figure-05.jpg[Figura 5,align=center]
 image::img/es.figure-06.jpg[Figura 6,align=center]
 
 NOTE: el número de líneas cargadas se muestra en este momento arriba de la tabla, aunque el número de filas mostradas en la tabla sea limitado. No desespere, OpenRefine sólo muestra hasta 50 líneas, pero las acciones que uno pueda tomar en la aplicación pueden tener efecto sobre filas aunque éstas no sean mostradas.
-
-****
